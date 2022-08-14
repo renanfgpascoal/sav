@@ -1,0 +1,8 @@
+BROKER=mqtt.flespi.io
+PORT=8883
+CLIENT_ID=smartfan_alexa
+USERNAME=FlespiToken eoKrlkh5WvNs8iGlvmjJFzTKmDMK3Cq8R0n09uVTOz9MFFXYR4xnthVEIvcBYqzD
+PASSWORD=
+CERT_PATH=certs/mqtt_flespi_io.pem
+QOS=1
+TOPIC_OP=/smartfan/operations

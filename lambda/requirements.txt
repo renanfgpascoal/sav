@@ -1,0 +1,4 @@
+boto3==1.9.216
+ask-sdk-core==1.11.0
+paho-mqtt==1.6.1
+timeout-timer==0.2.0

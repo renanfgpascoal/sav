@@ -1,0 +1,96 @@
+{
+  "interactionModel": {
+    "languageModel": {
+      "invocationName": "smart fan",
+      "intents": [
+        {
+          "name": "AMAZON.CancelIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.HelpIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.StopIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.NavigateHomeIntent",
+          "samples": []
+        },
+        {
+          "name": "AMAZON.FallbackIntent",
+          "samples": []
+        },
+        {
+          "name": "ActionRequest",
+          "slots": [
+            {
+              "name": "actions",
+              "type": "actions"
+            }
+          ],
+          "samples": [
+            "{actions}",
+            "{actions} ventiador",
+            "Deixa ventilador no {actions}"
+          ]
+        }
+      ],
+      "types": [
+        {
+          "values": [
+            {
+              "id": "0",
+              "name": {
+                "value": "ligar",
+                "synonyms": [
+                  "abre"
+                ]
+              }
+            },
+            {
+              "id": "1",
+              "name": {
+                "value": "desligar",
+                "synonyms": [
+                  "fecha"
+                ]
+              }
+            },
+            {
+              "id": "2",
+              "name": {
+                "value": "mínimo",
+                "synonyms": [
+                  "um"
+                ]
+              }
+            },
+            {
+              "id": "3",
+              "name": {
+                "value": "médio",
+                "synonyms": [
+                  "2"
+                ]
+              }
+            },
+            {
+              "id": "4",
+              "name": {
+                "value": "máximo",
+                "synonyms": [
+                  "3"
+                ]
+              }
+            }
+          ],
+          "name": "actions"
+        }
+      ]
+    }
+  },
+  "version": "5"
+}

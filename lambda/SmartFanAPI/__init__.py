@@ -1,0 +1,1 @@
+from .SmartFanAPI import SmartFanAPI
